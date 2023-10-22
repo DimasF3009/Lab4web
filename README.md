@@ -415,7 +415,184 @@ footer{
 ### Hasil
 <img width="687" alt="hasil10" src="https://github.com/DimasF3009/Lab4web/assets/115356128/71afb517-cc9a-489c-a5ba-3f8a86ef5386">
 
+## Pertanyaan dan Tugas
+### Tambahkan Layout untuk menu About
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+</head>
+<style>
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    line-height:1;
+    font-size:100%;
+    font-family:'Open Sans', sans-serif;
+    color:#6b6969;
+}
+#container {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 1em #cccccc;
+}
+#wrapper{
+  margin: 0px;
+}
+.gambar img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0px auto;
+  display: block;
+}
+.desc{
+  box-shadow: 0 0 1em #cccccc;
+  border-radius: 10px;
+  width: 500px;
+  margin: 0px auto;
+  display: block;
+}
+.desc p{
+  padding: 5px;
+}
+.button{
+  padding: 10px;
+}
+.button button{
+  margin: 0px auto;
+  display: block;
+}
+button a{
+  text-decoration: none;
+  margin: 0px auto;
+  display: block;
+  padding: 10px;
+}
+</style>
+<body>
+  <div id="container">
+    <section class="about">
+      <h1 align="center">About Me</h1>
+      <hr>
+    </section>
 
+    <section id="wrapper">
+      <div class="gambar">
+        <img src="gambar/saya.png" alt="me">
+      </div>
+      <h1 align="center">Dimas Firmansyah</h1><br>
+      <div class="desc">
+        <p>
+          Saya, Dimas Firmansyah, merupakan salah satu mahasiswa Universitas Pelita Bangsa.
+        </p>
+        <p>
+          Saat ini, saya sedang menempuh jenjang sarjana di bidang teknik informatika, dan kami sedang mempelajari cara membuat tata letak website.
+        </p>
+        <p>
+          Tata letak website adalah komponen yang sangat penting dalam proses pembuatan website, terutama untuk pengembangan desain dan pengalaman pengguna.
+        </p>
+        <p>
+          Selain itu, tata letak website juga berfungsi untuk mempermudah para pengembang web dalam proses pembuatan website secara keseluruhan
+        </p>
+
+      </div>
+    </section>
+
+    <div class="button">
+      <button><a href="home.html">Back to Content</a></button>
+    </div>
+
+  </div>
+</body>
+</html>
+```
+### Hasil
+<img width="445" alt="hasil11" src="https://github.com/DimasF3009/Lab4web/assets/115356128/fb7a13a0-cbf9-49a0-b07f-66e5797317ce">
+
+### Tambahkan layout untuk menu Contact
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+body{
+    font-size:100%;
+    font-family:'Open Sans', sans-serif;
+}
+.form{
+    border: 2px solid #000;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.title{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+}
+.title h1{
+    font-size: 100%;
+}
+.button{
+    column-gap: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+</style>
+<body>
+   <div class="main">
+        <form action="proses.php" method="post" class="form">
+            <div class="title">
+                <h1><b>Contact Me</b></h1>
+            </div>
+            <p>
+                <label for="name">Nama:</label><br>
+                <input type="text" id="name" name="name" placeholder="Masukkan Nama Anda">
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="text" name="email" id="email" placeholder="Masukkan Email Anda">
+            </p>
+            <p>
+                <label for="order">Pesan:</label><br>
+                <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Masukan Pesan Anda Disini"></textarea>
+            </p>
+            <div class="button">
+                <p align = "center">
+                    <button>
+                        <a href="home.html" style="text-decoration: none;">Batal</a>
+                    </button>
+                <p align = "center">
+                    <input type="submit" value="Kirim">
+                </p>
+            </div>
+        </form>
+   </div>
+</body>
+</html>
+```
+### hasil
+<img width="278" alt="hasil12" src="https://github.com/DimasF3009/Lab4web/assets/115356128/a9bc71c8-b9a6-4738-904e-fe71f7a8b83f">
 
 
 
