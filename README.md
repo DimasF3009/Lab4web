@@ -289,3 +289,63 @@ Kemudian tambahkan css kedalam html
 ```
 ### Hasil
 <img width="268" alt="hasil7" src="https://github.com/DimasF3009/Lab4web/assets/115356128/c69a3912-6093-49fa-a6bd-91c090ba1c72">
+
+## Membuat Main content
+Membuat main content dengan html
+```
+<section id="wrapper">
+    <section id="main">
+        <article class="artikel">
+          <p>
+            KEMENKO PMK --  Indonesia akan mengalami usia emas pada tahun 2045. Pada saat itu, Indonesia genap berusia 100 tahun alias satu abad. Di masa itu, ditargetkan Indonesia sudah menjadi negara maju dan telah sejajar dengan negara adidaya. 
+          </p><br>
+          <p>
+            Momentum bersejarah tersebut memang masih sekitar saperempat abad lagi. Namun untuk mewujudkannya butuh persiapan yang matang sejak jauh-jauh hari. Sumber daya manusia Indonesia harus unggul, berkualitas, dan memiliki karakter. 
+          </p><br>
+          <p>
+            Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan (Menko PMK) Muhadjir Effendy mengatakan, generasi yang akan mewujudkan Indonesia Emas adalah generasi muda, khususnya yang saat ini tengah menempuh pendidikan di perguruan tinggi.
+          </p><br>
+          <p>
+            Dia menerangkan, para mahasiswa/mahasiswi dan lulusan universitas jenjang sarjana saat ini berada di kisaran usia 20 tahun. Menurutnya, pada masa Indonesia berusia 100 tahun yaitu 2045, usia mereka masih sekitar 40 tahun ke atas, yang merupakan usia puncak karir bagi profesional.
+          </p><br>
+          <p>
+            "Artinya, Indonesia Emas itu adalah milik saudara semua, bukan milik saya. Bukan milik mereka yang saat ini usianya sudah di atas 50 tahun," ujar Muhadjir saat menyampaikan sambutan pada Wisuda Ke-105 Periode III Universitas Muhammadiyah Malang (UMM), di UMM Dome Malang, pada Kamis (6/10/2022).
+          </p>
+        </article>
+    </section>
+</section>
+```
+Kemudian tambahkan css kedalam html
+```
+.artikel{
+   margin-left: 10px;
+   padding: 30px;
+}
+.artikel p{
+    font-size: 100%;
+    justify-content: space-between;
+}
+```
+### Hasi
+<img width="833" alt="hasil8" src="https://github.com/DimasF3009/Lab4web/assets/115356128/abeab6ff-8bb5-454e-b63e-75b2fe6675aa">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
