@@ -329,6 +329,62 @@ Kemudian tambahkan css kedalam html
 ### Hasi
 <img width="833" alt="hasil8" src="https://github.com/DimasF3009/Lab4web/assets/115356128/abeab6ff-8bb5-454e-b63e-75b2fe6675aa">
 
+## Membuat Artikel Lainnya
+Membuat more artikel dengan html
+```
+<section id="wrapper">
+	<section id="main">
+          <hr class="divider" />
+
+            <article class="entry">
+                <h2>Pemilihan Umum 2024</h2>
+                <img src="gambar/pemilu.jpeg" alt="Pemilu">
+                <p>Indonesia mendekati waktu pemilihan umum (pemilu) serentak tahun 2024. Pemilu serentak ini memilih Presiden dan Wakil Presiden, Anggota DPR, DPD, DPRD Provinsi dan DPRD Kabupaten/Kota.
+                  <a href="#">Lantas siapa peserta pemilu 2024?.</a>
+                </p>
+            </article>
+        
+          <hr class="divider" />
+    
+            <article class="entry">
+                <h2>Ice Cold Documentary Film</h2>
+                <img src="gambar/Icecold.jpeg" alt="IceCold" class="right-img">
+                <p>Dokumenter ini mengulas berbagai pertanyaan tak terjawab seputar persidangan Jessica Wongso—bertahun-tahun setelah kematian sahabatnya, Mirna Salihin.
+                  Dengan menyaksikan dokumenter ini, mari bersama-sama memahami kasus ini <a href="#">lebih kompleks lagi.</a>
+                </p>
+            </article>
+	</section>
+</section>
+```
+Kemudian tambahkan css kedalam html 
+```
+.divider {
+    border:0;
+    border-top:1px solid #eeeeee;
+    margin:40px 0;
+}
+.entry {
+    margin: 15px 0;
+    margin-left: 30px;
+}
+.entry h2 {
+    margin-bottom: 20px;
+}
+.entry p {
+    line-height: 25px;
+}
+.entry img {
+    float: left;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.entry .right-img {
+    float: right;
+}
+```
+### Hasil
+<img width="711" alt="hasil9" src="https://github.com/DimasF3009/Lab4web/assets/115356128/b5647132-abee-4231-befb-e70ed07c7a54">
+
 
 
 
