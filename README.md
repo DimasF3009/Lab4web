@@ -385,6 +385,37 @@ Kemudian tambahkan css kedalam html
 ### Hasil
 <img width="711" alt="hasil9" src="https://github.com/DimasF3009/Lab4web/assets/115356128/b5647132-abee-4231-befb-e70ed07c7a54">
 
+## Membuat Footer
+Membuat footer dengan html
+```
+    <footer>
+      <div class="kontak">
+        <h2><a href="kontak.html" style="text-decoration: none;">Contact</a></h2>
+        <p>&#128383; 0812-9318-9221</p>
+        <p><a href="kontak.html" style="text-decoration: none;">&#128386; dimasf.30@mhs.pelitabangsa.ac.id</a></p>
+      </div>
+      <div class="lisensi">
+        <p>&copy; 2023 - Dimas Firmansyah</p>
+      </div>
+    </footer>
+```
+Kemudian tambahkan css kedalam html
+```
+footer{
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.lisensi{
+    float: right;
+}
+```
+### Hasil
+<img width="687" alt="hasil10" src="https://github.com/DimasF3009/Lab4web/assets/115356128/71afb517-cc9a-489c-a5ba-3f8a86ef5386">
+
+
 
 
 
