@@ -163,10 +163,11 @@ ul a{
     text-decoration: none;
 }
 ```
+### Hasil
 <img width="960" alt="hasil3" src="https://github.com/DimasF3009/Lab4web/assets/115356128/8b04255a-9720-4b46-8b49-bad62e1ac15f">
 
 ## Membuat Slide show 
-membuat slideshow dengan html
+Membuat slideshow dengan html
 ```
 <section id="wrapper">
       <h1 style="margin: 10px 20px;">Indonesia Emas 2045</h1>
@@ -221,9 +222,70 @@ Kemudian tambahkan css kedalam html
     transition: 1s;
 }
 ```
+### Hasil
 <img width="595" alt="hasil4" src="https://github.com/DimasF3009/Lab4web/assets/115356128/c50abc80-e67b-4c3a-844c-5e0c4db05800">
 <img width="595" alt="hasil5" src="https://github.com/DimasF3009/Lab4web/assets/115356128/21ea9e87-68a4-4df5-b07d-2717cd4ffb2c">
 <img width="595" alt="hasil6" src="https://github.com/DimasF3009/Lab4web/assets/115356128/4004a9be-6212-4b4e-a1c2-cd457174bfcd">
 
-
-
+## Membuat Sidebar
+Membuat sidebar dengan html
+```
+<section id="wrapper">
+      <aside id="sidebar">
+          <div class="side-bar">
+            <h3 class="title">Other News</h3>
+            <ul>
+              <li><a href="#">Sport News</a></li>
+              <li><a href="#">Political News</a></li>
+              <li><a href="#">Economic News</a></li>
+              <li><a href="#">Environmental News</a></li>
+              <li><a href="#">Domestic News</a></li>
+            </ul>
+          </div>
+          <div class="side-bar">
+            <h3 class="title">Widget Text</h3>
+            <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt 
+              arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer 
+              pharetra est nunc, nec pretium nunc pretium ac.</p>
+          </div>
+      </aside>
+</section>
+```
+Kemudian tambahkan css kedalam html
+```
+#sidebar{
+    float: left;
+    width: 260px;
+    padding: 20px;
+}
+.side-bar .title {
+    padding:10px 16px;
+    background-color:#428bca;
+    color:#fff;
+}    
+.side-bar {
+    border:1px solid #eee;
+    margin-bottom:20px;
+}
+.side-bar ul{
+    list-style: none; 
+}
+.side-bar ul li{
+   border-bottom:1px solid #eee;
+}
+.side-bar a{
+    padding:10px 16px;
+    color:#333;
+    display:block;
+    text-decoration:none;
+}
+.side-bar li:hover a {
+    background-color:#eee;
+}
+.side-bar p {
+    padding:15px;
+    line-height:25px;
+}
+```
+### Hasil
+<img width="268" alt="hasil7" src="https://github.com/DimasF3009/Lab4web/assets/115356128/c69a3912-6093-49fa-a6bd-91c090ba1c72">
