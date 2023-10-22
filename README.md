@@ -80,6 +80,8 @@ kode dan hasil
 <img width="411" alt="hasil2" src="https://github.com/DimasF3009/Lab4web/assets/115356128/71f51b30-af23-4f7e-93c6-bdbdd7bf73ca">
 
 # Membuat Layout sederhana
+## Kerangka Layout
+![layout](https://github.com/DimasF3009/Lab4web/assets/115356128/5e579e29-ae42-4d52-9e57-b08eb28ae20c)
 ## Membuat folder html
 ```
 <!DOCTYPE html>
