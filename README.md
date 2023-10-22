@@ -165,4 +165,60 @@ ul a{
 ```
 <img width="960" alt="hasil3" src="https://github.com/DimasF3009/Lab4web/assets/115356128/8b04255a-9720-4b46-8b49-bad62e1ac15f">
 
+## Membuat Slide show 
+membuat slideshow dengan html
+```
+<section id="wrapper">
+      <h1 style="margin: 10px 20px;">Indonesia Emas 2045</h1>
+      <!-- Slider -->
+      <div class="slide">
+        <img src="gambar/indonesia1.png" alt="sam1" id="sam1">
+        <img src="gambar/indonesia2.jpg" alt="sam2" id="sam2">
+        <img src="gambar/indonesia3.jpg" alt="sam3" id="sam3">
+      </div>
+      <div class="slider-nav">
+            <a href="#sam1"></a>
+            <a href="#sam2"></a>
+            <a href="#sam3"></a>
+      </div>
+</section>
+```
+Kemudian tambahkan css kedalam html
+```
+.slide{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.slide img{
+    max-width: auto;
+    padding: 30px;
+    flex: 1 0 92%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav{
+    display: flex;
+    position: relative;
+    column-gap: 5px;
+    bottom: 55px;
+    left: 150px;
+    z-index: 1;
+    margin-left:300px;
+}
+.slider-nav a{
+    background-color:grey;
+    width:20px;
+    height: 20px;
+    border-radius: 10px;
+    opacity: 0.75;
+}
+.slider-nav a:hover{
+    opacity: 1;
+    transition: 1s;
+}
+```
 
