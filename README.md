@@ -221,4 +221,9 @@ Kemudian tambahkan css kedalam html
     transition: 1s;
 }
 ```
+<img width="595" alt="hasil4" src="https://github.com/DimasF3009/Lab4web/assets/115356128/c50abc80-e67b-4c3a-844c-5e0c4db05800">
+<img width="595" alt="hasil5" src="https://github.com/DimasF3009/Lab4web/assets/115356128/21ea9e87-68a4-4df5-b07d-2717cd4ffb2c">
+<img width="595" alt="hasil6" src="https://github.com/DimasF3009/Lab4web/assets/115356128/4004a9be-6212-4b4e-a1c2-cd457174bfcd">
+
+
 
