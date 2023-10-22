@@ -416,6 +416,9 @@ footer{
 ```
 ### Hasil
 <img width="687" alt="hasil10" src="https://github.com/DimasF3009/Lab4web/assets/115356128/71afb517-cc9a-489c-a5ba-3f8a86ef5386">
+### Hasil Akhir
+![hasil13](https://github.com/DimasF3009/Lab4web/assets/115356128/da3ae3c6-9db1-4153-907e-608b626d21b6)
+
 
 ## Pertanyaan dan Tugas
 ### Tambahkan Layout untuk menu About
